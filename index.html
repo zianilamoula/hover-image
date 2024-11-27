@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Accessible Interactive Photo Gallery</title>
+  <link rel="stylesheet" href="gallery.css">
+  <script src="index.js"></script>
+</head>
+
+<body onload="initGallery()">
+  <div id="image">
+    Hover over an image below to display it here.
+  </div>
+
+  <img class="preview" alt="Sunny beach view" src="img/beach.jpg" onmouseover="upDate(this)" onmouseleave="unDo()"
+    onfocus="upDate(this)" onblur="unDo()">
+  <img class="preview" alt="Mountain view with a lake" src="img/mountain.jpg" onmouseover="upDate(this)"
+    onmouseleave="unDo()" onfocus="upDate(this)" onblur="unDo()">
+  <img class="preview" alt="Forest trail with sunlight" src="img/forest.jpeg" onmouseover="upDate(this)"
+    onmouseleave="unDo()" onfocus="upDate(this)" onblur="unDo()">
+  <img class="preview" alt="City skyline at sunset" src="img/city.jpg" onmouseover="upDate(this)" onmouseleave="unDo()"
+    onfocus="upDate(this)" onblur="unDo()">
+  <img class="preview" alt="Desert with cacti" src="img/desert.jpg" onmouseover="upDate(this)" onmouseleave="unDo()"
+    onfocus="upDate(this)" onblur="unDo()">
+  <img class="preview" alt="Snow-covered mountains" src="img/snow.jpg" onmouseover="upDate(this)" onmouseleave="unDo()"
+    onfocus="upDate(this)" onblur="unDo()">
+  <script>
+    
+
+
+  </script>
+</body>
+
+</html>
